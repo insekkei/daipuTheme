@@ -1,0 +1,12 @@
+/* Tiny Scrollbar */
+.overlay-con { }
+.overlay-con .viewport { height: 100%; overflow: hidden; position: relative; }
+.overlay-con .overview { list-style: none; position: absolute; left: 128px; top: 0; padding: 0; margin: 0; }
+#slideinfo .overview{left:10px;}
+.overlay-con .scrollbar{ background: #000; position: relative;float: right; margin-right: 40px; width: 1px; }
+#slideinfo .scrollbar{margin-right:10px;height: 240px;}
+.overlay-con .track { background: none; height: 100%; width: 1px; position: relative; padding: 0 1px; }
+.overlay-con .thumb { background: #000; height: 20px; width: 5px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -2px; }
+.overlay-con .thumb .end { background: none; overflow: hidden; height: 5px; width: 25px; }
+.overlay-con .disable { display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
