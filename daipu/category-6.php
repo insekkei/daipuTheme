@@ -53,12 +53,12 @@ get_header('daipu'); ?>
 
 				<article  id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 					<header class="entry-header">
-						<h2 class="entry-title">
+						<div class="entry-title">
 							<?php the_time('Y-m-d'); ?><br>
                             <a href="/?p=<?php the_ID()  ?>">
                                 <?php the_title(); ?>
                             </a>
-						</h2>
+						</div>
 					</header><!-- .entry-header -->
                     <div class="entry-content">
                         <?php
