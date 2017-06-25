@@ -61,7 +61,10 @@ get_header('daipu'); ?>
 						</h2>
 					</header><!-- .entry-header -->
                     <div class="entry-content">
-                        <img src="<?php echo catch_that_image() ?>" width="100%" />
+                        <?php
+                    		// Post thumbnail.
+                    		twentyfifteen_post_thumbnail();
+                    	?>
 						<?php the_excerpt(); ?>
 					</div><!-- .entry-content -->
 				</article>
