@@ -2003,14 +2003,18 @@ article>.clearfix {
 }
 .overlay-con article p{font-size: 12px;}
 .overlay-con article h2,
-.news .overlay-con article .entry-title,
-.default-single  .overlay-con article .entry-title,
+.default-single  .overlay-con article h1.entry-title,
 .news .overlay-con article .entry-title a{
 font-family: '微软雅黑', 'Microsoft Yahei', sans-serif;
 line-height: 22px;font-size: 12px;
 font-weight: bold;
 position: relative;
 top: -5px;}
+.default-single  .overlay-con article h2.entry-title,
+ .overlay-con article .entry-title {
+     line-height: 22px;font-size: 12px;
+     font-weight: normal;
+ }
 .news .overlay-con article .entry-title a {
     display: block;
     margin-top: 5px;
