@@ -16,7 +16,7 @@
 content="daipu architects, 大章建筑事务所">
 
 <meta name="keywords"
-content="大章建筑, 大章, daipu architects, 大章建筑事务所, 建筑事务所, 戴璞">
+content="daipu architects, 戴璞建筑, 建筑事务所, 戴璞">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/css/tinyscrollbar.css" type="text/css" media="screen"/>
