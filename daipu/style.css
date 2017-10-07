@@ -4302,10 +4302,7 @@ width:auto;
 #menu-nav>li, #menu-nav-chinese>li{
 float:left;
 margin-right:2px;position: relative;}
-#menu-nav li, #menu-nav-chinese li{
-background:#fff;font-size: 12px;font-weight: normal;width: 100px;
-height: 20px;
-line-height: 20px;position:relative}
+#menu-nav li, #menu-nav-chinese li{background:#fff;font-size: 12px;font-weight: normal;width: 125px;height: 20px;line-height: 20px;position:relative;}
 #menu-nav>li:nth-child(2),#menu-nav>li:nth-child(2) ul li,
 #menu-nav-chinese>li:nth-child(2),#menu-nav-chinese>li:nth-child(2) ul li
 {width: 138px;}
