@@ -13,7 +13,7 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="description"
-content="daipu architects, 大章建筑事务所">
+content="daipu architects, 戴璞建筑事务所">
 
 <meta name="keywords"
 content="daipu architects, 戴璞建筑, 建筑事务所, 戴璞">
