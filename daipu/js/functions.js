@@ -13,15 +13,15 @@
     $('.home #widget-area .cat-post-widget').css('background-image', bg);
 
     $('.cat-post-widget').prepend('<span class="cat-post-widget-close">&times;</span>');
-    
-    var closePostLink = localStorage.getItem('closePostLink');
-    var catPostLink = $('.cat-post-everything-is-link').attr('href');
 
-    if (closePostLink === catPostLink) {
-      $('.cat-post-widget').addClass('hide');
-    }
+    // var closePostLink = localStorage.getItem('closePostLink');
+    // var catPostLink = $('.cat-post-everything-is-link').attr('href');
+
+    // if (closePostLink === catPostLink) {
+    //   $('.cat-post-widget').addClass('hide');
+    // }
     $(document).on('click', '.cat-post-widget', function(e) {
-      localStorage.setItem('closePostLink', catPostLink);
+      // localStorage.setItem('closePostLink', catPostLink);
       $('.cat-post-widget').addClass('hide');
     })
 
