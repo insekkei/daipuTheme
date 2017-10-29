@@ -702,6 +702,10 @@ margin-top: 0.5em;
 display: block;
 }
 
+.widget_recent_entries {
+  position: fixed;
+  opacity: 0;
+}
 .dropdown-toggle {
 background-color: transparent;
 border: 0;
