@@ -3586,16 +3586,16 @@ width:auto;
 
 .cat-post-widget-close {
   position: absolute;
-  right: -4px;
-  top: -2px;
+  right: 0;
+  top: 2px;
   z-index: 3;
-  border-radius: 50%;
   width: 20px;
   height: 20px;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
   cursor: pointer;
+  color: #000;
 }
 .home #widget-area .cat-post-widget ul {
   position: relative;
