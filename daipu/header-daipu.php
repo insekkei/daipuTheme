@@ -11,14 +11,13 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-<meta name="description"
-content="daipu architects, 戴璞建筑事务所">
-
-<meta name="keywords"
-content="daipu architects, 戴璞建筑, 建筑事务所, 戴璞">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<meta charset="<?php bloginfo( 'charset' ); ?>" />
+  <meta name="description"
+  content="daipu architects, 戴璞建筑事务所"/>
+  <meta name="keywords"
+  content="daipu architects, 戴璞建筑, 建筑事务所, 戴璞"/>
+	<link rel="profile" href="http://gmpg.org/xfn/11"/>
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/css/tinyscrollbar.css" type="text/css" media="screen"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="<?php bloginfo('stylesheet_directory') ?>/js/jquery.tinyscrollbar.js"></script>

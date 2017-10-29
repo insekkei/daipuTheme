@@ -12,14 +12,14 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta charset="<?php bloginfo( 'charset' ); ?>"/>
 <meta name="description"
-content="daipu architects, 戴璞建筑事务所">
+content="daipu architects, 戴璞建筑事务所"/>
 
 <meta name="keywords"
-content="daipu architects, 戴璞建筑, 建筑事务所, 戴璞">
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+content="daipu architects, 戴璞建筑, 建筑事务所, 戴璞" />
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/css/tinyscrollbar.css" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/css/supersized.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory') ?>/css/supersized.shutter.css" type="text/css" media="screen" />

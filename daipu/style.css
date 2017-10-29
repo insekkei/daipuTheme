@@ -3570,6 +3570,35 @@ width:auto;
 #widget-area .cat-post-widget {
   display: none;
 }
+.home #widget-area .cat-post-widget {
+  display: inline-block;
+  clear: left;
+  position: fixed;
+  padding: 6px 10px;
+  width: 360px;
+  left: calc(50vw - 375px);
+  top: 120px;
+  filter: blur(0);
+  background: inherit;
+  overflow: hidden;
+  background: rgba(255,255,255,.8);
+}
+.home #widget-area .cat-post-widget::before {
+  content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; filter: blur(10px);
+}
+.home #widget-area .cat-post-title {
+  font-size: 12px;
+}
+.home #widget-area .cat-post-thumbnail {
+  margin: 0 0 10px;
+}
+.home #widget-area .cat-post-widget img {
+  width: 100%;
+}
+.home #widget-area .cat-post-date {
+  margin: 10px 0 0;
+}
+
 #menu-nav>li, #menu-nav-chinese>li{
 float:left;
 margin-right:2px;
