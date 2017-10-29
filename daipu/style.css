@@ -702,10 +702,6 @@ margin-top: 0.5em;
 display: block;
 }
 
-.widget_recent_entries {
-  position: fixed;
-  opacity: 0;
-}
 .dropdown-toggle {
 background-color: transparent;
 border: 0;
@@ -1496,7 +1492,6 @@ border-bottom: 1px solid #333;
 .textwidget a:focus {
 border-bottom: 0;
 }
-
 
 /**
  * 12.0 Content
@@ -3570,6 +3565,10 @@ float:left;
 margin:0;
 padding:0;
 width:auto;
+}
+
+#widget-area .cat-post-widget {
+  display: none;
 }
 #menu-nav>li, #menu-nav-chinese>li{
 float:left;
