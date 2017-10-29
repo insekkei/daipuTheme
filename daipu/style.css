@@ -3567,7 +3567,8 @@ padding:0;
 width:auto;
 }
 
-#widget-area .cat-post-widget {
+#widget-area .cat-post-widget,
+.home #widget-area .cat-post-widget.hide {
   display: none;
 }
 .home #widget-area .cat-post-widget {
@@ -3577,11 +3578,24 @@ width:auto;
   width: 360px;
   left: calc(50vw - 375px);
   top: 120px;
-  overflow: hidden;
   background-attachment: fixed;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.cat-post-widget-close {
+  position: absolute;
+  right: -4px;
+  top: -2px;
+  z-index: 3;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
 }
 .home #widget-area .cat-post-widget ul {
   position: relative;
