@@ -19,7 +19,7 @@
 get_header('daipu'); ?>
 
 	<section id="primary" class="content-area">
-		<main id="main" class="site-main index news" role="main">
+		<main id="main" class="site-main index news press" role="main">
 			<div class="overlay">
 				<div class="overlay-con">
 				<?php
