@@ -25,6 +25,14 @@
       $('.cat-post-widget').addClass('hide');
     })
 
+    $(document).on('click', '.press article a', function(e) {
+      e.preventDefault()
+      $(this).parents('article').find('.modal').addClass('show');
+    })
+    $(document).on('click', '.modal.show', function(e) {
+      $('.modal').removeClass('show');
+    })
+
 	var stopBubble = function (e) {
 		//如果提供了事件对象，则这是一个非IE浏览器
 		if(e && e.stopPropagation) {
