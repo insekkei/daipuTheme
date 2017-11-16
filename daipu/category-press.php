@@ -27,7 +27,6 @@ get_header('daipu'); ?>
                     'orderby' => 'date'
                 );
                 $query_vars = $wp_query->query_vars;
-                $query_vars['posts_per_page'] = -1
                 $args = array_merge( $query_vars,  $sortArgs );
 
                 query_posts($args);
