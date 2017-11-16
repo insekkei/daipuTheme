@@ -24,12 +24,11 @@ get_header('daipu'); ?>
 				<div class="overlay-con">
 				<?php
                 $sortArgs = array(
-                    'orderby' => 'date'
+                    'orderby' => 'date',
+                    'nopaging' => true
                 );
                 $query_vars = $wp_query->query_vars;
-                $args = array_merge( $query_vars,  $sortArgs, array(
-                  'posts_per_page' => -1
-                ));
+                $args = array_merge( $query_vars,  $sortArgs );
 
                 query_posts($args);
 
