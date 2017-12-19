@@ -2203,6 +2203,36 @@ margin-bottom: 0;
 }
 
 
+.overview .responsive-tabs {font-size: 12px;}
+.overview .responsive-tabs ul.responsive-tabs__list {margin: 0;}
+.overview .responsive-tabs .responsive-tabs__list .responsive-tabs__list__item {
+   padding: 0;
+   margin-right: 38px;
+   font-size: 12px;
+   background-color: transparent;
+   color: #666;
+   border: 0;
+}
+.overview .responsive-tabs .responsive-tabs__list .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: #333;
+}
+.overview .responsive-tabs .responsive-tabs__panel {
+    background-color: transparent;
+    border: 0;
+    padding: 10px 0;
+}
+.overview .responsive-tabs .responsive-tabs__panel p {
+    display: flex;
+    margin: 8px 0;
+    align-items: top;
+}
+.overview .responsive-tabs .responsive-tabs__panel p .time {
+    display: inline-block;
+    margin-right: 2em;
+    font-weight: bold;
+}
 /**
  * 12.2 Post Formats
  */
