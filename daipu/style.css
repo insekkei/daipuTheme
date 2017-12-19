@@ -3648,6 +3648,7 @@ width:auto;
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 0;
 }
 
 .cat-post-widget-close {
@@ -4437,9 +4438,7 @@ margin-right:2px;position: relative;}
 padding:0 8px;
 display: block;
 }
-#menu-nav>li ul, #menu-nav-chinese>li ul{
-position:absolute;
-top: 22px;display: none;}
+#menu-nav>li ul, #menu-nav-chinese>li ul{position:absolute;top: 22px;display: none;z-index: 1;}
 #menu-nav .sub-menu .sub-menu, #menu-nav-chinese .sub-menu .sub-menu {
     left: 100%;
     margin-left: 2px;
