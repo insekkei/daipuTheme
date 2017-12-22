@@ -69,6 +69,7 @@ get_header('daipu'); ?>
                     	?>
 						<?php the_excerpt(); ?>
 					</div><!-- .entry-content -->
+          <div class="modal"><div class="full-content"><?php the_content(); ?></div></div>
 				</article>
 			<?php
 			// End the loop.

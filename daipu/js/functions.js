@@ -25,7 +25,15 @@
       $('.cat-post-widget').addClass('hide');
     })
 
-    $(document).on('click', '.entry-content p img:not(.attachment-post-thumbnail), .press article .attachment-post-thumbnail', function(e) {
+    $(document).on('click', '.press article a', function(e) {
+      e.preventDefault()
+      $(this).parents('article').find('.modal').addClass('show');
+    })
+    $(document).on('click', '.modal.show', function(e) {
+      $('.modal').removeClass('show');
+    })
+
+    $(document).on('click', '.entry-content p img:not(.attachment-post-thumbnail)', function(e) {
       e.preventDefault()
       var imgSrc = $(this).attr('src');
       $('#main').append('<div class="globalFullScreenModal"><img src=' + imgSrc + ' /></div>');
