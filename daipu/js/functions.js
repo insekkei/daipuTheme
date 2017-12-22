@@ -27,10 +27,12 @@
 
     $(document).on('click', '.press article a', function(e) {
       e.preventDefault()
-      $(this).parents('article').find('.modal').addClass('show');
+      $('#main').append($(this).parents('article').find('.modal')).clone(true)
+      $('#main > .modal').addClass('show')
     })
     $(document).on('click', '.modal.show', function(e) {
-      $('.modal').removeClass('show');
+      e.preventDefault()
+      $('.modal.show').remove();
     })
 
     $(document).on('click', '.entry-content p img:not(.attachment-post-thumbnail)', function(e) {
@@ -38,7 +40,7 @@
       var imgSrc = $(this).attr('src');
       $('#main').append('<div class="globalFullScreenModal"><img src=' + imgSrc + ' /></div>');
       $(document).on('click', '.globalFullScreenModal', function(e) {
-        $(this).hide()
+        $(this).remove()
       })
     })
 

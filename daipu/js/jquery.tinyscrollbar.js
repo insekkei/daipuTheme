@@ -231,6 +231,9 @@
                 self.update("relative");
             });
 
+            $(document).on('click', '.responsive-tabs__list__item', function(e) {
+              self.update("relative");
+            })
 
             $(window).load(function() {
                 self.update("relative");
