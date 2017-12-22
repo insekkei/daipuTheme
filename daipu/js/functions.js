@@ -25,12 +25,13 @@
       $('.cat-post-widget').addClass('hide');
     })
 
-    $(document).on('click', '.press article a', function(e) {
+    $(document).on('click', '.entry-content p img:not(.attachment-post-thumbnail), .press article .attachment-post-thumbnail', function(e) {
       e.preventDefault()
-      $(this).parents('article').find('.modal').addClass('show');
-    })
-    $(document).on('click', '.modal.show', function(e) {
-      $('.modal').removeClass('show');
+      var imgSrc = $(this).attr('src');
+      $('#main').append('<div class="globalFullScreenModal"><img src=' + imgSrc + ' /></div>');
+      $(document).on('click', '.globalFullScreenModal', function(e) {
+        $(this).hide()
+      })
     })
 
 	var stopBubble = function (e) {
