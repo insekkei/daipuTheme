@@ -511,7 +511,7 @@ function display_posts_for_categories_menu_item( $items, $menu, $args ) {
 			$item->object_id == 44 || $item->object_id == 36 ||
 			$item->object_id == 45 || $item->object_id == 40 ||
 			$item->object_id == 33 || $item->object_id == 32 ||
-			$item->object_id == 48 || $item->object_id == 51
+      $item->object_id == 21 || $item->object_id == 22
 			) {
 			    // Query the category posts
 			    $arguments = array(
