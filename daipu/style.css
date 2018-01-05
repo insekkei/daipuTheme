@@ -2230,6 +2230,8 @@ margin-bottom: 0;
     display: flex;
     margin: 8px 0;
     align-items: top;
+    font-weight: bold;
+    font-family: 'Microsoft Yahei', sans-serif !important;
 }
 .overview .responsive-tabs .responsive-tabs__panel p .time {
     display: inline-block;
