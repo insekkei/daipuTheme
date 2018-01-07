@@ -10,6 +10,8 @@
     var random_bg=Math.floor(Math.random()*5+1);
     var bg='url(/wp-content/themes/daipu/images/background/bg_'+random_bg+'.jpg)';
     $('.site-main.index').css("background-image",bg);
+
+    $('body').not('.home').find('.cat-post-widget img').attr('src', '');
     $('.home #widget-area .cat-post-widget').css('background-image', bg);
 
     $('.cat-post-widget').prepend('<span class="cat-post-widget-close">&times;</span>');
