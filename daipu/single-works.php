@@ -33,10 +33,10 @@ get_header('product'); ?>
 
 					<?php	echo "[";
 						foreach ( $match[1] as $img_url ) {
-						//	$image = pathinfo($img_url);
-						//	$thumb = $image[dirname]."/".$image[filename]."-150x150.".$image[extension];
-		         		  	echo "{image: '". $img_url . "', thumb :'". $img_url . "'},";
-						//	echo "{image: '". $img_url . "', thumb :'". $thumb . "'},";
+							$image = pathinfo($img_url);
+							$thumb = $image[dirname]."/".$image[filename]."-150x150.".$image[extension];
+                    //  "{image: '". $img_url . "', thumb :'". $img_url . "'},";
+							echo "{image: '". $img_url . "', thumb :'". $thumb . "'},";
 						}
 						echo "]";
 					?>
