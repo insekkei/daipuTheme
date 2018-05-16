@@ -29,12 +29,12 @@
 
     $(document).on('click', '.press article a', function(e) {
       e.preventDefault()
-      $('#main').append($(this).parents('article').find('.modal')).clone(true)
+      $('#main').append($(this).parents('article').find('.modal').clone(true))
       $('#main > .modal').addClass('show')
     })
     $(document).on('click', '.modal.show', function(e) {
       e.preventDefault()
-      $('.modal.show').remove();
+      $('#main > .modal').remove();
     })
 
     $(document).on('click', '.entry-content p img:not(.attachment-post-thumbnail)', function(e) {
